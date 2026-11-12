@@ -1,0 +1,24 @@
+# Build & standalone executable artifacts (attached to GitHub Releases instead)
+build/
+dist/
+*.exe
+
+# Local client data, statements, and generated CSV reports
+Statements/
+Statements*/
+*.csv
+
+# Python caches & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS & temporary Office lock files
+Thumbs.db
+Desktop.ini
+~$*
